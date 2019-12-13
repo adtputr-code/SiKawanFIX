@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sikawan.sikawan">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".MainApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/logo_app"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_app"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreenActivity"
+            android:theme="@style/FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".OnBoardingActivity"
+            android:theme="@style/FullScreen" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".AlertActivity" />
+        <activity android:name=".ProfilActivity" />
+        <activity android:name=".DaftarLaporanActivity" />
+        <activity android:name=".UbahPasswordActivity" />
+        <activity android:name=".LaporActivity" />
+        <activity android:name=".LaporLanjutanActivity" />
+        <activity android:name=".LaporFeedback" />
+        <activity android:name=".LaporList" />
+        <activity android:name=".AlertServiceActivity" />
+        <activity android:name=".DetailLaporActivity" />
+        <activity android:name=".Nilai" />
+        <activity android:name=".NilaiUAS" />
+        <activity android:name=".Presensi"></activity>
+        <activity android:name=".tv3"></activity>
+    </application>
+
+</manifest>
